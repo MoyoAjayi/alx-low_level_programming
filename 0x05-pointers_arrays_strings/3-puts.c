@@ -2,7 +2,9 @@
 
 /**
 * _puts -> this is a function that puts
-* @str: a param to _puts function
+* @str: the string
+*
+* Return: the length of the string
 */
 void _puts(char *str)
 {
