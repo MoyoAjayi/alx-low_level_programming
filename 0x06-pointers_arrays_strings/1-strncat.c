@@ -2,15 +2,15 @@
 #include <string.h>
 
 /**
-* _strncpy -> for copying purpose
+* _strncat -> function to join two strings
 * @dest: param1
 * @src: param2
 * @n: param3
 * Return: string
 */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	strncpy(dest, src, n);
+	strncat(dest, src, n);
 	return (dest);
 }
