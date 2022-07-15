@@ -24,5 +24,5 @@ char *leet(char *m)
 		}
 		a++;
 	}
-	return (x);
+	return (m);
 }
